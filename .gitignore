@@ -1,0 +1,21 @@
+# Build directory
+build/
+
+# VS Code settings
+.vscode/
+
+# Object files
+*.o
+*.obj
+
+# Executables
+*.exe
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Logs
+*.log

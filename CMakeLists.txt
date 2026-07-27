@@ -13,4 +13,11 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 add_executable(
     MedVisionEngine
     src/main.cpp
+    src/Image.cpp
+)
+
+target_include_directories(
+    MedVisionEngine
+    PRIVATE
+        include
 )

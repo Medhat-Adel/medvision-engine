@@ -31,4 +31,14 @@ namespace medvision
     {
         return pixels.size();
     }
+
+    Pixel& Image::at(std::uint32_t x, std::uint32_t y)
+    {
+        return pixels[y * width + x];
+    }
+
+    const Pixel& Image::at(std::uint32_t x, std::uint32_t y) const
+    {
+        return pixels[y * width + x];
+    }
 }

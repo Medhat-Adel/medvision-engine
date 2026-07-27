@@ -20,6 +20,11 @@ namespace medvision
         std::uint8_t getChannels() const;
         std::size_t getPixelCount() const;
 
+        Pixel& at(std::uint32_t x, std::uint32_t y);
+
+        const Pixel& at(std::uint32_t x, std::uint32_t y) const;
+
+        
     private:
         std::uint32_t width;
         std::uint32_t height;

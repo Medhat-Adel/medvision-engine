@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include "medvision/Image.hpp"
+#include "include/medvision/Image.hpp"
 
 int main()
 {

@@ -41,4 +41,11 @@ namespace medvision
     {
         return pixels[y * width + x];
     }
+    void Image::fill(const Pixel& color)
+    {
+        for (Pixel& pixel : pixels)
+        {
+            pixel = color;
+        }
+    }
 }

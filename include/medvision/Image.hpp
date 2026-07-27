@@ -24,6 +24,7 @@ namespace medvision
 
         const Pixel& at(std::uint32_t x, std::uint32_t y) const;
 
+        void fill(const Pixel& color);
         
     private:
         std::uint32_t width;
